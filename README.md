@@ -15,5 +15,10 @@
 
 Just copy the files onto a directory and run the display.py script
 
-If you want to run this on start-up, create a shell script for executing this python script with super user permissions and add it to crontab
+If you want to run this on start-up, create a shell script for executing this python script with super user permissions and add it to crontab for example:
+
+```
+sudo python ~/display.py
+```
+
 - LCD Driver code was derived from https://gist.github.com/DenisFromHR/cc863375a6e19dce359d. Thank you DenisFromHR!
